@@ -1,5 +1,5 @@
 var youtube = "https://www.youtube.com/@aihxdev/";
-var twitter = "https://www.twitter.com/aihxdev/";
+var x = "https://www.x.com/aihxdev/";
 var password = "a810b5df8e939419ad5a730383a4f6b7b150d3635a37c1b2ca08f07b1102bbc5";
 var linkedin = "https://www.linkedin.com/in/aihxdev/";
 var instagram = "https://www.instagram.com/aihxdev/";
@@ -25,7 +25,7 @@ whoami = [
 social = [
   "<br>",
   'youtube        <a href="' + youtube + '" target="_blank">youtube/@aihxdev' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/@aihxdev' + '</a>',
+  'x        <a href="' + x + '" target="_blank">x/@aihxdev' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aihxdev' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/aihxdev' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/aihxdev' + "</a>",
