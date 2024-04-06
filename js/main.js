@@ -135,9 +135,9 @@ function commander(cmd) {
       addLine("Opening YouTube...", "color2", 80);
       newTab(youtube);
       break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
+    case "x":
+      addLine("Opening x...", "color2", 0);
+      newTab(x);
       break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
