@@ -25,7 +25,7 @@ whoami = [
 social = [
   "<br>",
   'youtube        <a href="' + youtube + '" target="_blank">youtube/@aihxdev' + "</a>",
-  'x        <a href="' + x + '" target="_blank">x/@aihxdev' + '</a>',
+  'x              <a href="' + x + '" target="_blank">x/@aihxdev' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aihxdev' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/aihxdev' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/aihxdev' + "</a>",
