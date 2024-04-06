@@ -61,7 +61,8 @@ help = [
 ];
 
   banner = [
-        '<span class="index">AIHxDev (xDev) A AIHxInc Corporation. All knights reserved.</span>',
+        '<span class="index">AIHxDev (xDev) A AIHxInc Corporation. no rights reserved.</span>',
+        "open source;",
         " ________________________________________",
         "/ Machines never cheat!                          \\",
         "\\                  -- ai                     /",
