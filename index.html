@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ9TR5T9S2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-QJ9TR5T9S2');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIHxInc | Terminal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="img/fav-icon.png" />
+    <style>
+      /* Additional CSS for responsiveness */
+      @media screen and (max-width: 600px) {
+        /* Adjust styles for smaller screens */
+        body {
+          font-size: 14px; /* Adjust font size */
+        }
+        #terminal {
+          margin-bottom: 50px; /* Add space at bottom for better visibility */
+        }
+        #command {
+          position: fixed; /* Make command bar fixed at the bottom */
+          bottom: 0;
+          width: 100%;
+          background-color: #000; /* Adjust background color */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="terminal">
+      <a id="before"></a>
+    </div>
+    <div id="command" onclick="$('texter').focus();">
+      <textarea
+        type="text"
+        id="texter"
+        onkeyup="typeIt(this, event)"
+        onkeydown="typeIt(this, event); 
+                   moveIt(this.value.length, event)"
+        onkeypress="typeIt(this, event);"
+        autofocus
+      ></textarea>
+      <div id="liner">
+        <span id="typer"></span><b class="cursor" id="cursor">█</b>
+      </div>
+    </div>
+    <script src="disableMouse.js"></script>
+    <script src="js/caret.js"></script>
+    <script src="js/commands.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

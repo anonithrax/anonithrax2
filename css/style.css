@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 15px 20px;
+    min-height: 99%;
+    width: 100%;
+    min-width: 550px;
+    color: #00ff00;
+    background: #000000;
+    font-family: monospace;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    color: #000000;
+    background-color: #00ff00;
+  }
+
+  ::-moz-selection {
+    color: #000000;
+    background-color: #00ff00;
+  }
+
+  textarea {
+    left: -1000px;
+    position: absolute;
+  }
+
+  b {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .cursor {
+    font-size: 12px;
+    color: #00ff00;
+    background-color: #00ff00;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    max-width: 10px;
+    transform: translateY(4px);
+    overflow: hidden;
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #command {
+    cursor: text;
+    height: 50px;
+    color: #00ff00;
+  }
+
+  #liner {
+    line-height: 1.3em;
+    margin-top: -2px;
+    animation: show 0.5s ease forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
+  }
+
+  #liner::before {
+    color: #00ff00;
+    content: "b0t@aihx.dev:~$";
+  }
+
+  #liner.password::before {
+    content: "Password:";
+  }
+
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  p {
+    display: block;
+    line-height: 1.3em;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 0.05em;
+    animation: typing 0.5s steps(30, end);
+  }
+
+  .no-animation {
+    animation: typing 0 steps(30, end);
+  }
+
+  .margin {
+    margin-left: 20px;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .index {
+    color: #ffffff;
+  }
+
+  .color2 {
+    color: #ffffff;
+  }
+
+  .command {
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+  }
+
+  .error {
+    color: #ffffff;
+  }
+
+  .white {
+    color: #ffffff;
+  }
+
+  .inherit,
+  a {
+    color: #00ff00;
+  }
+
+  a {
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    background: #00ff00;
+    color: #000000;
+  }
+
+  a:focus {
+    outline: 0;
+  }
