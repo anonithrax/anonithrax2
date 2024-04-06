@@ -1,3 +1,4 @@
+```
 AIHxDev (xDev) A AIHxInc Corporation. no rights reserved.
 
 open source;
@@ -52,4 +53,5 @@ ________________________________________
 
 hax terminal a stolen one.
 
-you know wt todo, those who don't will scream for - 'help'.
+you know wt todo, those who don't will scream for - 'help'.```
+```
