@@ -40,7 +40,7 @@ secret = [
 
 projects = [
   "<br>",
-  "Still confidential.",
+  "games; github",
   "<br>"
 ];
 
