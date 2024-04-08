@@ -4,6 +4,8 @@ var password = "a810b5df8e939419ad5a730383a4f6b7b150d3635a37c1b2ca08f07b1102bbc5
 var linkedin = "https://www.linkedin.com/in/aihxdev/";
 var instagram = "https://www.instagram.com/aihxdev/";
 var github = "https://github.com/aihxdev/";
+var games = "https://github.com/aihxdev/flashmatrix";
+var h1 = "https://hackerone.com/aihxdev/";
 var email = 'mailto:aihxdev@proton.me';
 
 whois = [
@@ -29,6 +31,7 @@ social = [
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aihxdev' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/aihxdev' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/aihxdev' + "</a>",
+  'hackerone      <a href="' + h1 + '" target="_blank">hackerone/aihxdev' + "</a>",
   "<br>"
 ];
 
@@ -40,7 +43,7 @@ secret = [
 
 projects = [
   "<br>",
-  "games; github",
+  'games         <a href="' + games + '" target="_blank">https://github.com/aihxdev/flashmatrix' + "</a>",
   "<br>"
 ];
 
