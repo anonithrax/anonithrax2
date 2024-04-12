@@ -104,6 +104,5 @@ ledger = [
   'Apr 12, 2024 joined huntr.com ',
   'Apr 12, 2024 started practicing bug bounty',
   'Apr 12, 2024 reached level 12 in monkeytype.com',
-
   "<br>",
 ];
