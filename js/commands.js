@@ -97,7 +97,13 @@ help = [
       
 ledger = [
   "<br>",
-  '-12th april 2024 | Welcome to my digital ledger! ',
   'Apr 5, 2024 created this website',
+  '-12th april 2024 | Welcome to my digital ledger! ',
+
+  'Date Apr 12 : ' ,
+  'Apr 12, 2024 joined huntr.com ',
+  'Apr 12, 2024 started practicing bug bounty',
+  'Apr 12, 2024 reached level 12 in monkeytype.com',
+
   "<br>",
 ];
