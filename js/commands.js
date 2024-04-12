@@ -94,15 +94,15 @@ help = [
         '<span class="color2">hax terminal a stolen one.</span>',
     "<span class=\"color2\">you know wt todo, those who don't will scream for -</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
     ];
-      
-ledger = [
-  "<br>",
-  'Apr 5, 2024 created this website',
-  '-12th april 2024 | Welcome to my digital ledger! ',
 
-  'Date Apr 12 : ' ,
-  'Apr 12, 2024 joined huntr.com ',
-  'Apr 12, 2024 started practicing bug bounty',
-  'Apr 12, 2024 reached level 12 in monkeytype.com',
-  "<br>",
-];
+    projects = [
+      "<br>",
+      'Apr 5, 2024 created this website',
+      '-12th april 2024 | Welcome to my digital ledger!',
+      'Date Apr 12 : ',
+      'Apr 12, 2024 joined huntr.com ',
+      'Apr 12, 2024 started practicing bug bounty',
+      'Apr 12, 2024 reached level 12 in monkeytype.com',
+      "<br>"
+    ];
+    
