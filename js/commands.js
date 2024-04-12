@@ -60,6 +60,7 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">ledger</span>         Digital Ledger',
   "<br>",
 ];
 
@@ -94,3 +95,8 @@ help = [
     "<span class=\"color2\">you know wt todo, those who don't will scream for -</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
     ];
       
+ledger = [
+  "<br>",
+  '- Welcome to my digital ledger! ',
+  "<br>",
+];
