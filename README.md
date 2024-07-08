@@ -1,5 +1,5 @@
 ```
-AIHxDev (xDev) A AIHxInc Corporation. no rights reserved.
+t-rex (@0x7_r3x) Corporation. no rights reserved.
 
 open source;
 
